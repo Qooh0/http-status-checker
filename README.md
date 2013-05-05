@@ -8,21 +8,21 @@ no warranty
 Usage
 -------
 
-#. mkdir target-urls 
+1. mkdir target-urls 
 
-#. written urls in target-urls/hoge.txt , target-urls/some.txt ... 
+2. written urls in target-urls/hoge.txt , target-urls/some.txt ... 
 
-#. run `check.rb` 
+3. run `check.rb` 
 
-#. check result `cat results.txt` 
+4. check result `cat results.txt` 
 
 使い方
 -----------
 
-#. target-urls というディレクトリを作成する
+1. target-urls というディレクトリを作成する
 
-#. そのディレクトリとの中のファイルは適当に読むので、そこに調べたい url を書いたファイルを置く
+2. そのディレクトリとの中のファイルは適当に読むので、そこに調べたい url を書いたファイルを置く
 
-$. check.rb を実行
+3. check.rb を実行
 
-+. results.txt にエラーのファイル一覧が表示される。
+4. results.txt にエラーのファイル一覧が表示される。
