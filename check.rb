@@ -50,4 +50,8 @@ open('results.txt', 'w') do |f|
   bad_5xx_uris.each do |uri|
     f.write uri + "\n"
   end
+  f.write "-- else -- \n"
+  bad_else_uris.each do |uri|
+    f.write uri + "\n"
+  end
 end
