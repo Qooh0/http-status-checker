@@ -7,10 +7,10 @@ no warranty
 Usage
 -------
 
--. mkdir target-urls
--. written urls in target-urls/hoge.txt , target-urls/some.txt ...
--. run `check.rb`
--. check result `cat results.txt`
+-. mkdir target-urls 
+-. written urls in target-urls/hoge.txt , target-urls/some.txt ... 
+-. run `check.rb` 
+-. check result `cat results.txt` 
 
 使い方
 -----------
